@@ -1,0 +1,13 @@
+.item {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 500px;
+  padding: 15px;
+  border: 1px solid blue;
+}
+
+.button {
+  margin-left: 390px;
+  color: red;
+}
