@@ -2,8 +2,8 @@ import { useSelector } from "react-redux";
 import statusFilters from "../../redux/constants";
 import { getTasks, getStatusFilter } from "../../redux/selectors";
 import { useDispatch } from "react-redux";
-import { deleteTask } from "../../redux/actions";
-import { toggleCompleted } from "../../redux/actions";
+import { deleteTask, toggleCompleted } from "../../redux/tasksSlice";
+
 import styles from "./TaskList.module.css";
 
 const getVisibleTasks = (tasks, statusFilter) => {

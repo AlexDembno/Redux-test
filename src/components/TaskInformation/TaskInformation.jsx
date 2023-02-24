@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from "react-redux";
 import statusFilters from "../../redux/constants";
 import { getTasks } from "../../redux/selectors";
 import { getStatusFilter } from "../../redux/selectors";
-import { setStatusFilter } from "../../redux/actions";
+import { setStatusFilter } from "../../redux/filterSlice";
 import styles from "./TaskInformation.module.css";
 
 function TaskInformation() {

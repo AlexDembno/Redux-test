@@ -1,9 +1,10 @@
 import { useDispatch } from "react-redux";
-import { addTask } from "../../redux/actions";
+import { addTask } from "../../redux/tasksSlice";
 import styles from "./Form.module.css";
 
 function Form() {
   const dispatch = useDispatch();
+
   function hendlSubmit(e) {
     e.preventDefault();
     const form = e.target;
